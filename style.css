@@ -1,0 +1,73 @@
+body{ 
+font-family: "ShortStack";
+font-size: 14px;
+color: saddlebrown;
+      word-wrap: break-word;
+      min-height: 100%;
+}
+
+@font-face {
+  font-family: ShortStack;
+  src: url('/fonts/ShortStack-Regular.ttf');
+}
+
+
+a{
+color: orangered;
+
+}
+
+a:hover{
+font-style: italic;
+    
+}
+
+a:visited{
+color: #589e7b;
+}
+
+u{
+    text-decoration: wavy underline;
+    text-decoration-thickness: .5px;
+}
+
+        
+details summary {
+    list-style-image: url("/futaba01-01.png");
+}
+        
+details[open] summary {
+    list-style-image: url("/icon_hana4_green1.gif");
+}
+
+
+.tabcontent{
+    display: none;
+}
+
+.hug{
+height: 100%;
+width: 620px;
+margin: auto;
+}
+
+.title{
+font-family: 'ShortStack';
+font-size: 40px;
+color: white;
+-webkit-text-stroke:1.5px darkcyan;
+text-shadow: 2px 2px 3px #305957;
+text-align: left;
+margin-right: 2%;
+}
+
+
+hr{
+    border: 1px dashed darkseagreen;
+}
+@media screen and (max-width: 650px){
+            
+            .hug{
+                width: 90%;
+            }
+        }
