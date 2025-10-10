@@ -5,7 +5,16 @@ body{
   background-image: url(/assets/c053-3.gif);
   word-wrap: break-word;
   }
-        
+
+/* Moved from inline styles in index.html */
+.title {
+	padding-left: 10px;
+}
+
+.mainscontent {
+	width: 70%;
+}
+
 .glowbox{
   background-color: white;
   box-shadow: 0 0 10px 10px white;
@@ -57,10 +66,6 @@ body{
 	padding: 5px;
 }
         
-.mainscontent{
-	width: auto;
-}
-        
 .side2 {
 	grid-area: 'sidebar';
 	grid-column: 3;
@@ -96,24 +101,40 @@ card:first-child{
 	overflow-y: scroll;
 }
 
+/* Navigation list styling to replace <br>-based spacing */
+.nav-list {
+	list-style: none;
+	padding-left: 0;
+	margin: 0 0 0.75rem 0; /* space after each group */
+}
 
+.nav-list li + li {
+	margin-top: 0.25rem; /* vertical rhythm between items */
+}
 
-@media screen and (max-width: 650px){
-	.title{
-		font-size: 35px;
+/* Contact block spacing */
+.contact {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+/* Improve readable width and centering for main content */
+.mainscontent {
+	max-width: 70ch; /* readable line length */
+	margin: 0; /* keep existing flow unless layout centers it */
+}
+
+/* Responsive tweaks */
+@media (max-width: 700px) {
+	.mainscontent {
+		width: auto; /* override fixed width */
+		max-width: 100%;
 	}
-            
-	.glowbox{
-		grid-template-rows: 25% 40% auto;
-		height: auto;
-	}
-            
-	.main{
-		background-position: top right;
-		background-size: 50%;
-	}
-            
-	.side2 img{
-		width: 90%;
+
+	/* If columns are floated or grid-based, allow stacking via full-width */
+	.side1, .main, .main2, .side2 {
+		width: 100%;
 	}
 }

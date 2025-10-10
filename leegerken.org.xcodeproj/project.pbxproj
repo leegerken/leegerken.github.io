@@ -12,8 +12,6 @@
 		9B10143D2E98CE4900B26641 /* CNAME */ = {isa = PBXFileReference; lastKnownFileType = text; path = CNAME; sourceTree = "<group>"; };
 		9B1014452E98CE4900B26641 /* index.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
 		9B1014462E98CE4900B26641 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
-		9B1014482E98E25000B26641 /* index 2.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "index 2.css"; sourceTree = "<group>"; };
-		9B1014492E98E28900B26641 /* index 3.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = "index 3.css"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,8 +32,6 @@
 				9B1014452E98CE4900B26641 /* index.css */,
 				9B1014462E98CE4900B26641 /* index.html */,
 				9B1014472E98CEF700B26641 /* assets */,
-				9B1014482E98E25000B26641 /* index 2.css */,
-				9B1014492E98E28900B26641 /* index 3.css */,
 			);
 			sourceTree = "<group>";
 		};
