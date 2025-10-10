@@ -2,7 +2,7 @@ body{
   background-size: 100px;
   padding: 0;
   margin: 0;
-  background-image: url(/c053-3.gif);
+  background-image: url(/assets/c053-3.gif);
   word-wrap: break-word;
   }
         
@@ -33,7 +33,7 @@ body{
 .head {
     grid-area: 'header';
     grid-column: 1 / span 3;
-    background-image: url(/skye.jpg);
+    background-image: url(/assets/skye.jpg);
     background-size: 100%;
     background-position: 0% 45%;
     height: 100px;
@@ -41,7 +41,7 @@ body{
   }
         .main {
         grid-area: 'main';
-            background-image: url(/bgk_tree1.gif);
+            background-image: url(/assets/bgk_tree1.gif);
             background-position: right;
             background-repeat: no-repeat;
             background-size: contain;
