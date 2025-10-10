@@ -34,20 +34,22 @@ body{
     grid-area: 'header';
     grid-column: 1 / span 3;
     background-image: url(/assets/skye.jpg);
+		background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0% 45%;
     height: 100px;
     box-shadow: 0 0 5px 5px white inset;
-  }
-        .main {
-        grid-area: 'main';
-            background-image: url(/assets/bgk_tree1.gif);
-            background-position: right;
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: auto;
-            padding: 5px;
-        }
+}
+	
+.main {
+	grid-area: 'main';
+	background-image: url(/assets/bgk_tree1.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: auto;
+	padding: 5px;
+}
         
         .main2{
         grid-area: 'main2';
