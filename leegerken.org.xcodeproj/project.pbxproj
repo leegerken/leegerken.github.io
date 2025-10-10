@@ -7,52 +7,31 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9B1014332E98CE3700B26641 /* nowa88x31.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = nowa88x31.gif; sourceTree = "<group>"; };
-		9B1014342E98CE3700B26641 /* ShortStack-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ShortStack-Regular.ttf"; sourceTree = "<group>"; };
 		9B1014352E98CE3700B26641 /* site.webmanifest */ = {isa = PBXFileReference; lastKnownFileType = text; path = site.webmanifest; sourceTree = "<group>"; };
-		9B1014362E98CE3700B26641 /* skye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skye.jpg; sourceTree = "<group>"; };
 		9B1014372E98CE3700B26641 /* style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = style.css; sourceTree = "<group>"; };
-		9B1014382E98CE3700B26641 /* web-app-manifest-192x192.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web-app-manifest-192x192.png"; sourceTree = "<group>"; };
-		9B1014392E98CE3700B26641 /* web-app-manifest-512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "web-app-manifest-512x512.png"; sourceTree = "<group>"; };
-		9B10143A2E98CE4900B26641 /* apple-touch-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apple-touch-icon.png"; sourceTree = "<group>"; };
-		9B10143B2E98CE4900B26641 /* bgk_tree1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bgk_tree1.gif; sourceTree = "<group>"; };
-		9B10143C2E98CE4900B26641 /* c053-3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "c053-3.gif"; sourceTree = "<group>"; };
 		9B10143D2E98CE4900B26641 /* CNAME */ = {isa = PBXFileReference; lastKnownFileType = text; path = CNAME; sourceTree = "<group>"; };
-		9B10143E2E98CE4900B26641 /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
-		9B10143F2E98CE4900B26641 /* favicon.svg */ = {isa = PBXFileReference; lastKnownFileType = text; path = favicon.svg; sourceTree = "<group>"; };
-		9B1014402E98CE4900B26641 /* favicon-96x96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favicon-96x96.png"; sourceTree = "<group>"; };
-		9B1014412E98CE4900B26641 /* futaba01-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "futaba01-01.png"; sourceTree = "<group>"; };
-		9B1014422E98CE4900B26641 /* icon_hana4_lightblue2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = icon_hana4_lightblue2.gif; sourceTree = "<group>"; };
-		9B1014432E98CE4900B26641 /* icon_heart1-2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "icon_heart1-2.gif"; sourceTree = "<group>"; };
-		9B1014442E98CE4900B26641 /* icon_k_mail.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = icon_k_mail.gif; sourceTree = "<group>"; };
 		9B1014452E98CE4900B26641 /* index.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
 		9B1014462E98CE4900B26641 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9B1014472E98CEF700B26641 /* assets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXGroup section */
 		9B75E1A32E98B57300612599 = {
 			isa = PBXGroup;
 			children = (
-				9B1014332E98CE3700B26641 /* nowa88x31.gif */,
-				9B1014342E98CE3700B26641 /* ShortStack-Regular.ttf */,
 				9B1014352E98CE3700B26641 /* site.webmanifest */,
-				9B1014362E98CE3700B26641 /* skye.jpg */,
 				9B1014372E98CE3700B26641 /* style.css */,
-				9B1014382E98CE3700B26641 /* web-app-manifest-192x192.png */,
-				9B1014392E98CE3700B26641 /* web-app-manifest-512x512.png */,
-				9B10143A2E98CE4900B26641 /* apple-touch-icon.png */,
-				9B10143B2E98CE4900B26641 /* bgk_tree1.gif */,
-				9B10143C2E98CE4900B26641 /* c053-3.gif */,
 				9B10143D2E98CE4900B26641 /* CNAME */,
-				9B10143E2E98CE4900B26641 /* favicon.ico */,
-				9B10143F2E98CE4900B26641 /* favicon.svg */,
-				9B1014402E98CE4900B26641 /* favicon-96x96.png */,
-				9B1014412E98CE4900B26641 /* futaba01-01.png */,
-				9B1014422E98CE4900B26641 /* icon_hana4_lightblue2.gif */,
-				9B1014432E98CE4900B26641 /* icon_heart1-2.gif */,
-				9B1014442E98CE4900B26641 /* icon_k_mail.gif */,
 				9B1014452E98CE4900B26641 /* index.css */,
 				9B1014462E98CE4900B26641 /* index.html */,
+				9B1014472E98CEF700B26641 /* assets */,
 			);
 			sourceTree = "<group>";
 		};

@@ -8,7 +8,7 @@ color: saddlebrown;
 
 @font-face {
   font-family: ShortStack;
-  src: url('/ShortStack-Regular.ttf');
+  src: url('/assets/ShortStack-Regular.ttf');
 }
 
 
@@ -33,11 +33,11 @@ u{
 
         
 details summary {
-    list-style-image: url("/futaba01-01.png");
+    list-style-image: url("/assets/futaba01-01.png");
 }
         
 details[open] summary {
-    list-style-image: url("/icon_hana4_green1.gif");
+    list-style-image: url("/assets/icon_hana4_green1.gif");
 }
 
 
