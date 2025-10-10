@@ -1,9 +1,9 @@
 body{ 
-font-family: "ShortStack";
-font-size: 14px;
-color: saddlebrown;
-      word-wrap: break-word;
-      min-height: 100%;
+	font-family: "ShortStack";
+	font-size: 14px;
+	color: saddlebrown;
+	word-wrap: break-word;
+	min-height: 100%;
 }
 
 @font-face {
@@ -13,42 +13,40 @@ color: saddlebrown;
 
 
 a{
-color: orangered;
-
+	color: orangered;
 }
 
 a:hover{
-font-style: italic;
-    
+	font-style: italic;
 }
 
 a:visited{
-color: #589e7b;
+	color: #589e7b;
 }
 
 u{
-    text-decoration: wavy underline;
-    text-decoration-thickness: .5px;
+	text-decoration: wavy underline;
+	text-decoration-thickness: .5px;
 }
 
         
 details summary {
-    list-style-image: url("/assets/futaba01-01.png");
+	list-style-image: url("/assets/futaba01-01.png");
 }
         
 details[open] summary {
-    list-style-image: url("/assets/icon_hana4_green1.gif");
+	list-style-image: url("/assets/icon_hana4_green1.gif");
 }
 
 
 .tabcontent{
-    display: none;
+	display: none;
 }
 
 .hug{
-height: 100%;
-width: 620px;
-margin: auto;
+	height: 100%;
+	width: 620px;
+	margin: auto;
 }
 
 .title{
