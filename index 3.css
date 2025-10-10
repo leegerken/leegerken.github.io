@@ -1,0 +1,37 @@
+/* Navigation list styling to replace <br>-based spacing */
+.nav-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 0.75rem 0; /* space after each group */
+}
+
+.nav-list li + li {
+  margin-top: 0.25rem; /* vertical rhythm between items */
+}
+
+/* Contact block spacing */
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+/* Improve readable width and centering for main content */
+.mainscontent {
+  max-width: 70ch; /* readable line length */
+  margin: 0; /* keep existing flow unless layout centers it */
+}
+
+/* Responsive tweaks */
+@media (max-width: 700px) {
+  .mainscontent {
+    width: auto; /* override fixed width */
+    max-width: 100%;
+  }
+
+  /* If columns are floated or grid-based, allow stacking via full-width */
+  .side1, .main, .main2, .side2 {
+    width: 100%;
+  }
+}
