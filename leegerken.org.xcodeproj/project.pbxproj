@@ -12,6 +12,7 @@
 		9B10143D2E98CE4900B26641 /* CNAME */ = {isa = PBXFileReference; lastKnownFileType = text; path = CNAME; sourceTree = "<group>"; };
 		9B1014452E98CE4900B26641 /* index.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = index.css; sourceTree = "<group>"; };
 		9B1014462E98CE4900B26641 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		9BA9CAC82E9B0766004A852E /* repo.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = repo.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -28,6 +29,7 @@
 			children = (
 				9B1014352E98CE3700B26641 /* site.webmanifest */,
 				9B1014372E98CE3700B26641 /* style.css */,
+				9BA9CAC82E9B0766004A852E /* repo.html */,
 				9B10143D2E98CE4900B26641 /* CNAME */,
 				9B1014452E98CE4900B26641 /* index.css */,
 				9B1014462E98CE4900B26641 /* index.html */,
