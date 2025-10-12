@@ -59,6 +59,15 @@ details[open] summary {
 	margin-right: 2%;
 }
 
+.h3{
+	font-family: 'ShortStack';
+	font-size: 14px;
+	color: white;
+	-webkit-text-stroke:1.5px darkcyan;
+	text-shadow: 2px 2px 3px #305957;
+	text-align: left;
+}
+
 
 hr{
     border: 1px dashed darkseagreen;
