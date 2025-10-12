@@ -38,7 +38,6 @@ details[open] summary {
 	list-style-image: url("/assets/icon_hana4_green1.gif");
 }
 
-
 .tabcontent{
 	display: none;
 }
@@ -66,8 +65,8 @@ details[open] summary {
 	-webkit-text-stroke:1.5px darkcyan;
 	text-shadow: 2px 2px 3px #305957;
 	text-align: left;
+	margin-bottom: 0
 }
-
 
 hr{
     border: 1px dashed darkseagreen;
