@@ -81,14 +81,13 @@ details[open] summary {
 .mainscontent {
   width: 70%;
   max-width: 70ch;
-  margin: 0 auto;
 }
 
-.sidecontent{
+.sidecontent {
 	width: auto;
 }
 
-.h3{
+.h3 {
 	font-family: 'ShortStack';
 	font-size: 14px;
 	color: white;
@@ -97,11 +96,11 @@ details[open] summary {
 	text-align: left;
 }
 
-hr{
+hr {
     border: 1px dashed darkseagreen;
 }
 
-.card{
+.card {
 	background-image: linear-gradient(to right, lightblue, rgb(255,0,0,0) 80%);
 	text-decoration: underline;
 	font-weight: bold;
@@ -127,7 +126,7 @@ card:first-child{
 .nav-list {
   list-style: none;
   padding-left: 0;
-  margin: 0 0 0.75rem 0; /* space after each group */
+  margin: 0 0 0.75rem 0;
 }
 
 .nav-list li + li {
@@ -139,15 +138,6 @@ card:first-child{
   align-items: center;
   gap: 0.5rem;
   margin-top: 0.5rem;
-}
-
-
-@media (max-width: 700px) {
-  .mainscontent {
-    width: auto;
-    max-width: 100%;
-    margin: 0; 
-  }
 }
 
 .side1 {
