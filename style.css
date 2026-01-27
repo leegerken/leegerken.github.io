@@ -1,4 +1,8 @@
 body{ 
+	background-size: 100px;
+	padding: 0;
+	margin: 0;
+	background-image: url(/assets/c053-3.gif);
 	font-family: "ShortStack";
 	font-size: 14px;
 	color: saddlebrown;
@@ -7,8 +11,8 @@ body{
 }
 
 @font-face {
-  font-family: ShortStack;
-  src: url('/assets/ShortStack-Regular.ttf');
+	font-family: ShortStack;
+	src: url('/assets/ShortStack-Regular.ttf');
 }
 
 
@@ -56,6 +60,7 @@ details[open] summary {
 	text-shadow: 2px 2px 3px #305957;
 	text-align: left;
 	margin-right: 2%;
+	padding-left: 10px;
 }
 
 .h3{
@@ -70,25 +75,82 @@ details[open] summary {
 hr{
     border: 1px dashed darkseagreen;
 }
-@media screen and (max-width: 650px){
-            
-            .hug{
-                width: 90%;
-            }
-        }
 
-/* Moved from inline styles in index.html */
-.title {
-  padding-left: 10px;
+.glowbox{
+  background-color: white;
+  box-shadow: 0 0 10px 10px white;
+  border: 1px dashed seagreen;
+  padding: 10px;
+  margin-top: 5%;
+  display: grid;
+  width: auto;
+  height: auto;
+  grid-template-columns: 20% 58% 20%;
+  grid-gap: 5px 5px;
+  grid-template-areas: 
+  'header header header'
+  'sidebar main sidebar'
+  'sidebar main2 sidebar'
 }
 
 .mainscontent {
   width: 70%;
-  max-width: 70ch; /* readable line length */
-  margin: 0 auto; /* center within container */
+  max-width: 70ch;
+  margin: 0 auto;
 }
 
-/* Navigation list styling to replace <br>-based spacing */
+.main {
+	grid-area: 'main';
+	background-image: url(/assets/bgk_tree1.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: auto;
+	padding: 5px;
+	text-align: left;
+}
+        
+.main2{
+	grid-area: 'main2';
+	grid-column: 1 / span 3;
+	padding: 5px;
+}
+        
+.side2 {
+	grid-area: 'sidebar';
+	grid-column: 3;
+	grid-row: 2 / 4;
+	padding: 2px;
+	background-color: honeydew;
+}
+        
+.sidecontent{
+	width: auto;
+}
+
+.card{
+	background-image: linear-gradient(to right, lightblue, rgb(255,0,0,0) 80%);
+	text-decoration: underline;
+	font-weight: bold;
+	width: auto;
+	color: darkcyan;
+	text-shadow: 1px 1px 2px #91bdcb;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+        
+card:first-child{
+	margin-top: 0;
+}
+        
+.uppydate{
+	padding: 5px;
+	border: 1px dashed seagreen;
+	width: auto;
+	height: 100px;
+	overflow-y: scroll;
+}
+
 .nav-list {
   list-style: none;
   padding-left: 0;
@@ -96,10 +158,9 @@ hr{
 }
 
 .nav-list li + li {
-  margin-top: 0.25rem; /* vertical rhythm between items */
+  margin-top: 0.25rem;
 }
 
-/* Contact block spacing */
 .contact {
   display: flex;
   align-items: center;
@@ -107,16 +168,27 @@ hr{
   margin-top: 0.5rem;
 }
 
-/* Responsive tweaks */
 @media (max-width: 700px) {
   .mainscontent {
     width: auto; /* override fixed width */
     max-width: 100%;
     margin: 0; /* remove centering on small screens if container is full-width */
   }
-
-  /* If columns are floated or grid-based, allow stacking via full-width */
-  .side1, .main, .main2, .side2 {
-    width: 100%;
-  }
+        
+.side1 {
+	grid-area: 'sidebar';
+	grid-row: 2 / 4;
+	padding: 2px;
+	background-color: honeydew;
+}
+  
+.head {
+	grid-area: 'header';
+	grid-column: 1 / span 3;
+	background-image: url(/assets/skye.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	/*background-position: 0% 45%;*/
+	height: 100px;
+	box-shadow: 0 0 5px 5px white inset;
 }
