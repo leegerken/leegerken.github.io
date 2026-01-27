@@ -90,7 +90,7 @@ hr{
   grid-template-areas:
   'header header header'
   'sidebar main sidebar'
-  'sidebar main2 sidebar'
+  'sidebar main2 sidebar';
 }
 
 .mainscontent {
